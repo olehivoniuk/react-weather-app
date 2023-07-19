@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-      <Weather defaultCity= "Mew York"/>
+      <Weather defaultCity= "New York"/>
    
     <footer>
       This project  was coded by <a href="https://ornate-dodol-f50a44.netlify.app">Bohdana Subotiak </a>{" "} and is
