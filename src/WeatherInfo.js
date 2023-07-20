@@ -20,14 +20,17 @@ export default function WeatherInfo(props){
                 </div>
           
             <div className="col-3 ">
-            <span className="temperature">{Math.round(props.data.temperature)}</span>
-            <span className="unit">°C</span>
+                <span className="temperature">
+                    {Math.round(props.data.temperature)}
+                </span>
+                <span className="unit">°C</span>
+            
             </div>
             </div>
         </div>
         <div className="col-6">
             <ul>
-                <li>Precipitation: 15%</li>
+                <li>Precipitation:{props.data.humidity}%</li>
                 <li> Humidity: {props.data.humidity}% </li>
                 <li> Wind: {props.data.wind} km/h</li>
             </ul>
