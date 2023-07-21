@@ -20,8 +20,8 @@ export default function WeatherTemperature(props) {
         <span className="temperature" ref={temperatureRef}>
           {Math.round(props.celsius)}
         </span>
-        <span className="unit">
-          °C|
+        <span className="unit" style={{ display: "inline" }}>°C
+          
           <a href="/" onClick={convertToFahrenheit}>°F</a>
         </span>
       </div>
@@ -34,12 +34,14 @@ export default function WeatherTemperature(props) {
         <span className="temperature" ref={temperatureRef}>
           {Math.round(fahrenheit)}
         </span>
-        <span className="unit">
-          <a href="/" onClick={convertToCelsius}>°C</a> |
-          °F
+        <span className="unit" style={{ display: "inline" }}>°F
+          <a href="/" onClick={convertToCelsius}>°C</a> 
         </span>
       </div>
     );
   }
 }
+
+
+
 
