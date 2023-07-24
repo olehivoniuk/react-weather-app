@@ -8,9 +8,9 @@ function App() {
       <Weather defaultCity= "New York"/>
    
     <footer>
-      This project  was coded by <a href="https://ornate-dodol-f50a44.netlify.app">Bohdana Subotiak </a>{" "} and is
-    <a href="https://github.com/olehivoniuk/react-weather-app"
-    target="_blank">  open-sourced</a>
+      This project  was coded by <a href="https://ornate-dodol-f50a44.netlify.app" >Bohdana Subotiak </a>{" "} and is
+    <a href="https://github.com/olehivoniuk/react-weather-app" 
+    target="_blank" rel="noreferrer">  open-sourced</a>
     </footer>
     </div>
     </div>
