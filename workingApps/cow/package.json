@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cowsay": "^1.5.0"
+  },
+  "scripts": {
+    "content": "npx cowsay cow.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

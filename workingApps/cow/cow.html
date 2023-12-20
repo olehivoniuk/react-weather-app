@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn"> get inputs sum </button>
+    <input type="number" id="inp1">
+    <input type="number" id="inp2">
+    <input type="number" id="inp3">
+<script>
+     ;(function(butt, input1, input2, input3) {
+    let button = document.getElementById(butt);
+    let input1Elem = document.getElementById(input1);
+    let input2Elem = document.getElementById(input2);
+    let input3Elem = document.getElementById(input3);
+
+    button.addEventListener('click', function() {
+      let sum = parseInt(input1Elem.value) + parseInt(input2Elem.value) + parseInt(input3Elem.value);
+      console.log(sum);
+    });
+  })('btn', 'inp1', 'inp2', 'inp3');
+
+
+    
+</script>
+</body>
+</html>
